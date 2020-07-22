@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMICA fitness</title> 
+    <link rel="shortcut icon" href="icono.png">
+    <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div id="empresa">
+            <div class="loguito">
+                <a href="index.html" target="_blank"><img class="logo" src="logo.png" alt="Logo DYNAMICA"></a>
+            </div>  
+        </div>
+        <nav>
+            <button type="button" class="btn btn-dark">Contacto</button>
+            <a href="index3.html"><button type="button" class="btn btn-dark">Nosotros</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-dark" >Envios</button></a>   <!--cargar pagina y etiquetas-->
+            <a href="index5.html"><button type="button" class="btn btn-dark">Productos</button></a>
+               
+        </nav>
+    </header>
+    <MAIN class="clearfix">
+    
+    <div class="formulario">
+        <div class="mensaje">
+            <h2 class="tit">Contacto</h3>
+            <p class="msj">Nos contactaremos a la brevedad, recorda que podes comunicarte a nuestro <strong>0800-111-348 (FIT) de Lunes a Viernes 8hs a 18hs </strong></p>
+
+        </div>
+        <form>
+            <fieldset>
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text"name="nombre" id="nombre" placeholder="Nombre" ><br>
+            <br>
+            <label for="Apellido">Apellido</label>
+            <br>
+            <input type="text"name="apellido" id="Apellido" placeholder="Apellido""><br>
+            <br>
+            <label for="genero">Genero</label><br>
+            <select id="genero" name="genero" >
+                <option value="1">Mujer</option>
+                <option value="2">Hombre</option>
+                <option value="3">Otros</option>
+            </select>
+            <br>
+            <br>
+            <label for="Provincia">Provincia</label><br>
+            <select id="Provincia" name="provincias" >
+                <option value="1">Buenos Aires</option>
+                <option value="2">Capital Federal</option>
+                <option value="3">Catamarca</option>
+                <option value="4">Chaco</option>
+                <option value="5">Chubut</option>   <!--esta idea si la tome de la pag original pero la modifique ya que tenia mas codigo-->
+                <option value="6">Córdoba</option>
+                <option value="7">Corrientes</option>
+                <option value="8">Entre Ríos</option>
+                <option value="9">Formosa</option>
+                <option value="10">Jujuy</option>
+                <option value="11">La Pampa</option>
+                <option value="12">La Rioja</option>
+                <option value="13">Mendoza</option>
+                <option value="14">Misiones</option>
+                <option value="15">Neuquen</option>
+                <option value="16">Río Negro</option>
+                <option value="17">Salta</option>
+                <option value="18">San Juan</option>
+                <option value="19">San Luis</option>
+                <option value="20">Santa Cruz</option>
+                <option value="21">Santa Fé</option>
+                <option value="22">Santíago del Estero</option>
+                <option value="23">Tierra del Fuego</option>
+                <option value="24">Tucumán</option>
+            </select>
+            <br>
+            <br>
+            <label for="telefono">Telefono de Contacto</label><br>
+            
+            <input type="tel" name="telefono" placeholder="0351-15XXXXXXX" id="telefono"><br>
+            <br>
+
+            <label for=mail>Email de Contacto</label><br>
+            <input type="email" name="email" id="mail" placeholder="direccion@correo.com" ><br>
+            <br>
+
+            
+            
+            
+            <label for="fecha">Fecha Deseada de Contacto</label><br>
+            
+            <input type="date" name="fecha">
+            <br>
+            <br>
+            <label for="hora">Hora Deseada de Contacto</label ><br>
+            <!-- se hizo de esta forma porque no me funciono el datetime-local-->
+            <input type="time" name="hora"><br>
+            <br>
+            <label for="mensaje">Mensaje</label><br>
+            <input type="text" id="mensaje" name="mensaje" ><br>
+            <br>
+            <input type="checkbox" name="spam" value="si deseo recibir spam" id="check">Recibir Novedades de DYNAMICA
+            <br>
+            <br>
+            <button type="submit" class="btn btn-secondary" id="enviarinfo">Enviar Informacion</button>
+            <!--<input type="submit" id="enviar info" value="Enviar Informacion"style="width: 500px;">-->            
+
+                <!--los estilos fueron definidos en este medio porque sino tenia que llenar de clases el css-->
+
+            </fieldset>
+        </form>
+    </div>
+    <div class="fotocontacto">
+        <img src="foto10.jpg" alt=""> <!--style="height: 1011px;"-->
+        <!--<img src="foto7.jpg" alt="" style="width: 100%;">-->
+    </div>
+
+    </DIV>
+</MAIN >
+    <footer>
+       <div>
+           <img class="imgfoot" src="icono.png" alt="logodyn">
+        </div>
+       <div class="textofoot">
+            <H2 class="logf">DYNAMICA <EM class="subtitulo">fitness</EM></H2>
+            <em class="subtitulo">Av. Agustin Tosco Esq. Av. Valparaiso</em>
+            <br>
+            <em class="subtitulo">Lunes a Viernes 8hs a 18hs</em>
+            <br>
+            <em class="subtitulo">0800-111-348 <sub>(FIT)</sub></em>   
+       </div>
+       <br>
+       <div class="firm">
+       <p class="FIRMA">Paglietta Andres Ezequiel</p>
+       </div>
+    </footer>
+</body>
+</html>

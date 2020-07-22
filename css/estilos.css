@@ -1,0 +1,246 @@
+.fotocontacto{
+    float: right;
+    width: 59.2%;
+    
+        
+}
+.firm{
+    float: right;
+    margin-right: 5px;
+}
+.firma{
+    color: black;
+    font-size: 15px;
+    text-align: right;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+nav{
+    float: right;
+   
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    height: 50px;
+    padding-right: 10px;
+}
+.txtbarra1{
+    color: black;
+    font-size: 30px;
+    font-family: 'B612', sans-serif;
+    text-align: right;
+    padding-right: 40px;
+    padding-left: 600px;
+    padding-top: 55px;
+}
+.descbarra1{
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    font-family: 'B612', sans-serif;
+    padding-left: 700px;
+    padding-right: 40px;
+}
+.txtbarra2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'B612', sans-serif;
+    text-align: left;
+    padding-top: 55px;
+    padding-left: 40px;
+}
+.descbarra2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'B612', sans-serif;
+    padding-left: 40px;
+    padding-right: 700px;
+}
+.logo{
+    width: 15%;
+    
+}
+
+#barra1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(221, 220, 220);
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.foto1{
+    float: left;
+    
+}
+#barra2{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(156, 140, 243);
+    margin-bottom: 40px;
+    
+}
+.foto2{
+    float: right;
+    width: 600px;
+    height: 300px;
+}
+
+footer{
+    width: 100%;
+    height: 213px;
+    background-color:  rgb(221, 220, 220);
+   
+    
+}
+button{
+    float: right;
+    width: 100px;
+    height: 40px;
+    
+    
+}
+.mainfoto{
+    width: 100%;
+    margin-bottom: 40px;
+   
+}
+.imgfoot{
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.logf{
+    font-size: 25px;
+    color:  rgb(156, 140, 243);
+}
+.subtitulo{
+    color: black;
+}
+.textofoot{
+    margin-left: 300px;
+    margin-top: -170px;
+}
+
+.formulario{
+    width: 30%;
+    float: left;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-family: 'B612', sans-serif;
+    text-align: justify;
+
+}
+.msj{
+    padding-bottom: 20%;
+    text-align: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+input{
+    width: 100%;
+    /*border-radius: 9%;/*se utilizo como prueba y resulto ofrecer un sombreado interesante*/
+}
+#enviarinfo{
+    width: 100%;
+}
+
+select{
+    width: 100%;
+    /*border-radius: 9%;*/
+}
+#check{
+    width: 5%;
+
+}
+.tit{
+    text-align: left;
+    padding-bottom: 5%;
+}
+/*.propio{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(156, 140, 243);
+    margin-top: 100px;
+    margin-bottom: 5%;
+    
+}*/
+
+.fiorino{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.cotizador{
+    color: rgb(41, 41, 41);
+    
+}
+.consulta{
+    color: rgb(156, 140, 243);
+}
+.historia{
+    background-color: rgb(156, 140, 243);
+    margin-top: 8%;
+    width: 100%;
+    height: 300px;
+    
+        
+}
+.nosotros{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'B612', sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5%;
+    margin-right: 5%;
+    
+}
+.familia{
+    float: left;
+    width: 100%;
+    
+}
+
+.flia{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'B612', sans-serif;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 5%;
+    margin-right: 5%;
+}
+.premios{
+    width: 100%;
+    
+    background-color: rgb(221, 220, 220);
+    margin-top: 50%;
+    margin-bottom: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+table{
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+    
+}
+ #productos{
+    background-color: rgb(156, 140, 243);
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2%;
+}
+.tienda{
+    color: black;
+}
